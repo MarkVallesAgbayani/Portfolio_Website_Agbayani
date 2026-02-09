@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=LINE+Seed+JP&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
 
+
 body{
+    font-family: "LINE Seed JP", sans-serif;
     background-image: radial-gradient(#ececec 1.5px, transparent 1.5px);
     background-size: 10px 10px;
     background-color: #ffffff;
