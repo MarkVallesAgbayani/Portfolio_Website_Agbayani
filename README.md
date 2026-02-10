@@ -13,10 +13,3 @@ This is my personal portfolio website built using **Vue 3**, **Vite**, and **Tai
 - Fully responsive for desktop, tablet, and mobile devices.
 - Easy to extend with new projects and sections.
 
----
-
-## Demo
-
-[Live Demo](TO BE ANNOUNCED)
-
---
