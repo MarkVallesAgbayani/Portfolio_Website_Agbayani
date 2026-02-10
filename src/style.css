@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=LINE+Seed+JP&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
-
+@theme {
+    --color-cobalt-blue: #1045A8;
+    --color-warm-biege: #F5E8D8;
+}
 
 body{
     font-family: "LINE Seed JP", sans-serif;
@@ -13,6 +16,9 @@ body{
     /* background-image:  url(/public/Images/gridbg.png);
     background-repeat: no-repeat;
     background-size: cover; */
-    background: linear-gradient(to right, #0f172a, #334155);
+    /* background: linear-gradient(to right, #0f172a, #334155); */
 
+    background-image: url(/public/Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

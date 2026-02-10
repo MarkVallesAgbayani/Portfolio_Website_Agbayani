@@ -3,30 +3,30 @@
 </script>
 
 <template>
-    <div class="md:flex md:flex-col md:justify-center items-center gap-15 h-130 md:mt-30 lg:gap-35 lg:mx-auto lg:flex lg:flex-row lg:mt-0">
+    <div class="font-mono md:flex md:flex-col md:justify-center items-center gap-15 h-130 md:mt-30 lg:gap-35 lg:mx-auto lg:flex lg:flex-row lg:mt-0">
         <div class="">
             <div class=""> 
-                <h1 class="font-bold text-sky-900 tracking-normal text-4xl mt-10 text-center mx-auto md:text-6xl lg:text-7xl">Mark Agbayani</h1>
+                <h1 class="bg-gradient-to-tl from-slate-800 via-teal-400 to-zinc-400 bg-clip-text text-transparent font-bold tracking-wide text-4xl mt-10 text-center mx-auto md:text-6xl lg:text-8xl">"Mark Agbayani"</h1>
             </div>
 
-            <div class="text-gray-600 tracking-normal mt-2 text-center text-[12px] w-93 mx-auto md:text-[16px]  md:w-140 md:mt-5 lg:text-[20px] lg:w-150">
+            <div class="text-outline-5 text-gray-300 tracking-normal mt-2 text-center text-[12px] w-93 mx-auto md:text-[16px]  md:w-140 md:mt-5 lg:text-[20px] lg:w-230">
                 <p>Student at STI College exploring how performance, structure, and data come together in real-world systems.</p>
             </div>
 
-            <div class="flex gap-2 mt-4 justify-center items-center mx-auto">
-                <button class="bg-sky-800 shadow-2xl text-white rounded-full p-2 flex gap-2 cursor-pointer text-[10px] text-center w-30 justify-center items-center md:w-30 md:h-10 lg:w-45 lg:h-16 lg:text-[14px]" type="button" 
+            <div class="flex gap-2 mt-10 justify-center items-center mx-auto">
+                <button class="bg-stone-950 border-1 border-gray-50 shadow-2xl text-white rounded-full p-2 flex gap-2 cursor-pointer text-[10px] text-center w-30 justify-center items-center md:w-30 md:h-10 lg:w-45 lg:h-16 lg:text-[14px] hover:bg-white hover:text-gray-900 hover:font-bold hover:transition duration-300" type="button" 
                 >
                     View Projects 
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg> 
                 </button>
-                <button class="bg-none shadow-2xl text-black w-40 p-2 rounded-full border-1 cursor-pointer text-[10px] md:w-30 md:h-10 lg:w-55 lg:h-16 lg:text-[14px]" type="button"
+                <button class="shadow-2xl text-white w-40 p-2 rounded-full border-1 cursor-pointer text-[10px] md:w-30 md:h-10 lg:w-55 lg:h-16 lg:text-[14px] hover:bg-white hover:text-gray-900 font-bold transition duration-300" type="button"
                 >
                     Download Resume
                 </button>
             </div>
         </div>
 
-        <div class="bg-white/60 w-60 h-65 rounded-2xl border-2 border-gray-50 backdrop-blur-8xl flex mb-6 items-center justify-center shadow-2xl mt-6 mr-auto ml-auto md:mx-10 md:w-120 md:h-300 p-3 lg:mx-12 lg:h-100 lg:w-100">
+        <!-- <div class="bg-white/60 w-60 h-65 rounded-2xl border-2 border-gray-50 backdrop-blur-8xl flex mb-6 items-center justify-center shadow-2xl mt-6 mr-auto ml-auto md:mx-10 md:w-120 md:h-300 p-3 lg:mx-12 lg:h-100 lg:w-100">
             <div>
                 <div>
                     <img class="border-5 border-sky-100 rounded-full w-30 shadow-2xl flex justify-center items-center mt-5 mr-auto ml-auto md:w-45 lg:w-60" src="/public/Images/picture.png" alt="" srcset="">
@@ -47,6 +47,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
