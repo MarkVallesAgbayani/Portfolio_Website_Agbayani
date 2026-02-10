@@ -8,4 +8,9 @@ body{
     background-size: 10px 10px;
     background-color: #ffffff;
     /* height: 900vh; */
+
+    /* background-color: #1c1917; */
+    /* background-image:  url(/public/Images/gridbg.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
