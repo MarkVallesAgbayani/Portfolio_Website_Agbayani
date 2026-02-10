@@ -5,12 +5,12 @@ import Hero from './components/Hero.vue'
 </script>
 
 <template>
-  <Navbar></Navbar>
-  <Hero></Hero>
+  <!-- <Navbar></Navbar>
+  <Hero></Hero> -->
 
 
 
-  <!-- <div class="flex flex-col text-white justify-center items-center h-screen bg-stone-900 font-mono">
+  <div class="flex flex-col text-white justify-center items-center h-screen bg-stone-900 font-mono">
     <div class="text-center flex flex-col justify-center items-center w-300 gap-10">
           <h1 class="text-center font-bold mt-10 text-7xl">Welcome to My Portfolio</h1>
           <p class="text-2xl">This project is currently under development.  
@@ -37,6 +37,6 @@ import Hero from './components/Hero.vue'
           </p>
     </div>
   </div>
-<footer class="text-center p-4 text-white fixed bottom-0 w-full">© 2026 Mark Agbayani. All rights reserved.</footer> -->
+<footer class="text-center p-4 text-white fixed bottom-0 w-full">© 2026 Mark Agbayani. All rights reserved.</footer>
 </template>
 
